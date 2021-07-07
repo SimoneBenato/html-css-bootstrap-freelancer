@@ -1,0 +1,9 @@
+header .container {
+    height: 80px;
+    background-color: rebeccapurple;
+}
+
+header .col-5, .col-2 {
+    height: 80px;
+    background-color: red;
+}
