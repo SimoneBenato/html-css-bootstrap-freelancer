@@ -1,11 +1,9 @@
-header .container-fluid {
-    height: 80px;
-    background-color: rebeccapurple;
+body {
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-header .col-5, .col-2 {
-    height: 80px;
-    background-color: red;
+header .container-fluid {
+    background-color: rgb(44, 62, 80);
 }
 
 main .container-fluid,
