@@ -1,4 +1,4 @@
-header .container {
+header .container-fluid {
     height: 80px;
     background-color: rebeccapurple;
 }
@@ -6,4 +6,27 @@ header .container {
 header .col-5, .col-2 {
     height: 80px;
     background-color: red;
+}
+
+main .container-fluid,
+footer .container-fluid {
+    min-height: 500px;
+}
+
+main .col-12 {
+    height: 350px;
+}
+
+.green {
+    background-color: rgb(26, 188, 156);
+}
+
+.gray {
+    background-color: rgb(58, 84, 109);
+}
+
+.darkgray {
+    /* background-color: rgb(44, 62, 80); */
+    background-color: red;
+    height: 80px;
 }
