@@ -20,10 +20,6 @@ body {
     height: 100%;
 }
 
-.TEST {
-    height: 420px;
-}
-
 img {
     width: 100%;
     background-size: cover;
@@ -31,4 +27,21 @@ img {
 
 .avatar {
     width: 250px;
+}
+
+.relative {
+    position: relative;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 255, 0, 0.2);
+    overflow-x: hidden;
+}
+
+.col:hover .overlay {
+    display: inline-block;
+    overflow-x: hidden;
 }
