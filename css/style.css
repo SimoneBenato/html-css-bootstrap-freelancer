@@ -28,3 +28,8 @@ main .col-12 {
     background-color: red;
     height: 80px;
 }
+
+.col-12 .container {
+    width: 100%;
+    height: 100%;
+}
