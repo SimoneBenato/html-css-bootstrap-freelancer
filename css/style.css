@@ -2,19 +2,6 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-header .container-fluid {
-    background-color: rgb(44, 62, 80);
-}
-
-main .container-fluid,
-footer .container-fluid {
-    min-height: 500px;
-}
-
-main .col-12 {
-    height: 350px;
-}
-
 .green {
     background-color: rgb(26, 188, 156);
 }
@@ -24,12 +11,24 @@ main .col-12 {
 }
 
 .darkgray {
-    /* background-color: rgb(44, 62, 80); */
-    background-color: red;
-    height: 80px;
+    background-color: rgb(44, 62, 80);
+    height: 100px;
 }
 
-.col-12 .container {
+.col .container {
     width: 100%;
     height: 100%;
+}
+
+.TEST {
+    height: 420px;
+}
+
+img {
+    width: 100%;
+    background-size: cover;
+}
+
+.avatar {
+    width: 250px;
 }
