@@ -45,3 +45,9 @@ img {
     display: inline-block;
     overflow-x: hidden;
 }
+
+.line-star {
+    width: 10vw;
+    height: 5px;
+}
+
